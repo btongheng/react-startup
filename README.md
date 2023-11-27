@@ -16,6 +16,10 @@
    ```sh
    npm run dev
    ```
+4. Localhost
+   ```sh
+   http://localhost:5173/
+   ```
 
 
 
