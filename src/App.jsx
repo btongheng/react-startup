@@ -1,6 +1,6 @@
 const App = () => {
   return (
-    <div>Hello World</div>
+    <div className="max-w-screen-xl mx-auto py-4 px-6">Hello World</div>
   )
 }
 

@@ -1,3 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Kantumruy+Pro:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic);
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    html {
+        font-family: "Kantumruy Pro";
+        scroll-behavior: smooth;
+    }
+
+    body {
+        color: #fefefe;
+        background: #0c0c0c;
+    }
+}
+
+@layer components {
+    .nav-link {
+        @apply text-sm font-medium text-text hover:text-primary transition-all
+    }
+
+    .btn-hover {
+        @apply text-text flex justify-center items-center border border-primary hover:text-accent hover:bg-primary/10 hover:border-accent transition-all;
+
+    }
+}
