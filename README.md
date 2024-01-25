@@ -1,4 +1,4 @@
-## Create React app using Vite + Tailwind + React Router + React Icons
+git remote add origin https://github.com/btongheng/FreeCinema.git## Create React app using Vite + Tailwind + React Router + React Icons
 
 ### Package
 
@@ -27,3 +27,4 @@
    [React-url]: https://reactjs.org/
    [Tailwind-url]: https://tailwindcss.com/
    [Vite-url]: https://vitejs.dev/
+# FreeCinema
